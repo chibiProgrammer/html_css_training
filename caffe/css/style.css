@@ -1,0 +1,100 @@
+section {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* TOP
+================================================= */
+.top {
+    background-image: url(../images/top.jpg);
+    text-align: center;
+    padding-top: 10vh;
+    scroll-snap-align: start;
+}
+
+/* Menu
+================================================= */
+.menu {
+    background-image: url(../images/menu.jpg);
+    display: flex;
+    align-items: center;
+    scroll-snap-align: center;
+}
+.wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.menu-list tr {
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    line-height: 1.7;
+}
+.menu-list th {
+    font-weight: normal;
+    text-align: left;
+}
+.menu-list td {
+    padding-left: 1rem;
+}
+
+/* Lowest
+================================================= */
+.lowest {
+    scroll-snap-align: end;
+    text-align: center;
+    padding-top: 8vh;
+    background-image: url(../images/lowest.jpg);
+}
+
+.sns-links {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.sns-links a {
+    background: #fff;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: inline-block;
+    margin: 0 .5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: .55rem ;
+    color: #555;
+}
+
+.sns-links i {
+    padding: 15px;
+}
+
+.sns-links li {
+    list-style: none;
+}
+
+
+/* COMMON
+================================================= */
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+.btn {
+    background: #555;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 6px;
+    margin: 2rem 0 2.25rem;
+    border: none;
+}
